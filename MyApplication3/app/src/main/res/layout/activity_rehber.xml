@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rehber">
+
+    <ListView
+        android:id="@+id/rehber_list"
+        android:layout_width="match_parent"
+        android:layout_height="554dp"
+        android:choiceMode="multipleChoice" />
+
+    <Button
+        android:id="@+id/btn_sms_ekrani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/sms_ekrani" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="1dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Akraba" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arkadaş" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İş" />
+    </RadioGroup>
+
+</RelativeLayout>

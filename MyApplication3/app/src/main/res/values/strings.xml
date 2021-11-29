@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="adsoyad">Ad Soyad</string>
+    <string name="numara">Numara</string>
+    <string name="telefon">Telefon</string>
+    <string name="rehberadsoyad">Ad Soyad</string>
+    <string name="isim">İrem Özkan</string>
+    <string name="number">201813709042</string>
+    <string name="is">İş</string>
+    <string name="akraba">Akraba</string>
+    <string name="sms_ekrani">SMS EKRANI</string>
+    <string name="arkadas">Arkadaş</string>
+    <string name="smsHint">"Mesajınızı buraya yazınız : "</string>
+    <string name="telno">05112223344</string>
+</resources>
